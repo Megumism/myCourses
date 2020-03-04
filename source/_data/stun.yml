@@ -74,8 +74,9 @@ menu_settings:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/icons/favicon-16x16.png
-  medium: /images/icons/favicon-32x32.png
+  small: /assets/Megumi.png
+  # small: /images/icons/favicon-16x16.png
+  medium: /assets/Megumi.png
   # ! --------------------------------------------------
   # ! If you don't know the following, please ignore it.
   # ! --------------------------------------------------
@@ -137,11 +138,11 @@ header:
   height: 80%
   # Background image of site header.
   bg_image:
-    enable: false
+    enable: true
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url:
+    url: /assets/77583554_p0.png
   # Mask effect of the background image.
   mask:
     enable: false
@@ -285,7 +286,7 @@ author:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: /images/icons/stun-logo.svg
+    url: /assets/Megumi.png
     # If true, the avatar would be displayed in a circle.
     rounded: false
     # Opacity of avatar (value: 0 ~ 1)
@@ -294,7 +295,7 @@ author:
     # Optional value: turn | shake
     animation: turn
   # Your favorite motto.
-  motto: hello world
+  motto: 给文明以科技，给岁月以哲学
 
 # Social links
 # Value before `||` is the target link, value after `||` is the name of FontAwesome icon.
