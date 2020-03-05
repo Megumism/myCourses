@@ -103,8 +103,8 @@ night_mode:
     bg_color: "#8c8a8a"
   # The icon that stand for day and night.
   icon:
-    dark: 🌜
-    light: 🌞
+    dark:  🌚 #🌜
+    light:  🌝 #🌞
 
 # The layout for sidebar and content of site.
 layout:
@@ -133,7 +133,7 @@ header:
   enable: true
   show_on:
     # Whether to show on the article page.
-    post: true
+    post: false #false
   # If you set a percentage, it will be calculated based on the height of screen (Supports all CSS units)
   height: 80%
   # Background image of site header.
@@ -155,7 +155,7 @@ header:
     bg_color: "#333"
   # The icon that prompts the user to pull down.
   scroll_down_icon:
-    enable: false
+    enable: true
     # Icon name in FontAwesome, see: https://fontawesome.com/icons
     name: fas fa-angle-down
     animation: true
@@ -250,7 +250,7 @@ creative_commons:
   #   it | lv | lt | hu | nl | no | pt | pt_BR | pl | ro | sl | fi | sv
   #   tr | is | cs | el | be | ru | zh | zh_TW | uk | ar | fa | bn | ja | ko
   # If not set, `en` will be used by default.
-  language:
+  language: zh
 
 # Back to top
 back2top:
@@ -293,7 +293,7 @@ author:
     opacity: 1
     # Mouse hover animation
     # Optional value: turn | shake
-    animation: turn
+    animation: shake
   # Your favorite motto.
   motto: 给文明以科技，给岁月以哲学
 
@@ -304,10 +304,10 @@ author:
 # If you can`t find a suitable icon, you can choose to display text by adding the `origin:` prefix.
 # e.g. `origin:sf`, so `sf` will be displayed.
 social:
-  github: https://github.com/ || fab fa-github
-  google: https://plus.google.com/ || fab fa-google
-  twitter: https://twitter.com/ || fab fa-twitter
-  youtube: https://youtube.com/ || fab fa-youtube
+  github: https://github.com/Megumism || fab fa-github
+  # google: https://plus.google.com/ || fab fa-google
+  # twitter: https://twitter.com/ || fab fa-twitter
+  # youtube: https://youtube.com/ || fab fa-youtube
   # segmentfault: https://segmentfault.com/ || origin:sf
   # weibo: https://weibo.com/ || fab fa-weibo
   # zhihu: https://www.zhihu.com/ || origin:知
@@ -556,7 +556,7 @@ utterances:
 # Busuanzi statistics
 # See: https://busuanzi.ibruce.info/
 busuanzi:
-  enable: false
+  enable: true
   # Only show by icon.
   icon_only: false
   # Number of unique visitor to the entire site.
@@ -912,7 +912,7 @@ cdn:
   # See: https://github.com/tuupola/lazyload/
   # Example:
   # lazyload: //cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js
-  lazyload:
+  lazyload: //cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js
 
   # Using version: latest
   # See: https://github.com/GoogleChromeLabs/quicklink/
